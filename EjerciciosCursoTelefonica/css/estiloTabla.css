@@ -1,0 +1,32 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;  
+  }  
+  td, th {
+    border: 1px solid #ebdddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    }
+  
+  tr:nth-child(even){
+    background-color: lightblue;
+  }
+
+  tr:nth-child(odd) {
+    background-color:blue;    
+  }
+
+.tabla-negrita td{   
+    font-weight: bold;  
+    background-color:orange;  
+  }
+  /*Ejemplos de pseudoClases en Css*/
+  a:link:hover{
+    color:red;
+}
+a:link:visited:hover{
+    color:yellow;
+
+}
