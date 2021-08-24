@@ -1,7 +1,7 @@
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;  
+    width: 50%;  
   }  
   td, th {
     border: 1px solid #ebdddd;
@@ -23,10 +23,33 @@ table {
     background-color:orange;  
   }
   /*Ejemplos de pseudoClases en Css*/
-  a:link:hover{
+  a:link{
     color:red;
 }
-a:link:visited:hover{
+a:visited{
     color:yellow;
 
+}
+/*
+Seleccion del primer hijo del elemento
+p:first-child{
+  font-weight: bold;
+  font-size:larger;
+}
+li:first-child{
+  text-transform: uppercase;
+  font-size: larger;
+}
+*/
+/*Seleccion del ultimo hijo del elemento
+
+*/
+p:last-child{
+  font-weight: bold;
+}
+li:last-child{
+  text-transform: uppercase;
+}
+p:first-of-type{
+  text-transform: uppercase;
 }

@@ -1,0 +1,34 @@
+/*Vamos a utlizar los pseudoelementos en CSS para ello vamos hacer una pagina con ejemplos.
+Esta página, tendra su HTML y su CSS*/
+
+/*1- first-letter da estilo o modifca el primera letra de un elemento*/
+p::first-letter{
+    color: red;
+}
+/*2- first-line da estilo a la primera linea del parrafo */
+p::first-line{
+    color:rgb(12, 128, 60);
+}
+/*Pone un elemento antes de una etiqueta*/
+p::before{
+    content: ");";
+}
+/*Pone un elemento después de cada etiqueta*/
+p::after{
+    content: "x-x";
+}
+
+/*Resalta los elementos seleccionados de un párrafo*/
+p::selection{
+    color:gray;
+    background:orangered;
+}
+
+a:link, a:visited{
+    text-decoration:none;
+}
+/*
+p{
+    text-transform:capitalize;
+}
+*/
