@@ -32,3 +32,25 @@ p{
     text-transform:capitalize;
 }
 */
+div.container{ padding : 25px 25px 10px 10px;
+border:1px solid,red; 
+}
+p{
+    background-color: azure;
+}
+:root{
+    --my-color:yellow;
+}
+
+h1, h4{
+  --my-color:red;
+}
+
+body{
+    color:var(--my-color);
+}
+
+
+
+
+
