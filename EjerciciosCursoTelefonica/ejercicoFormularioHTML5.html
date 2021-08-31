@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>formulacioHMTL5</title>
 </head>
 <body>
-    <header>
-        <h1>Formulario de Alta</h1>
-    </header>
-    <div class="container">
+    
+    <div id="container">
+
+        <header>
+            <h1>Formulario de Alta</h1>
+        </header>
+
         <nav class="navbar">
             <ul>
                 <li><a href="principal.html">HOME</a></li>
@@ -19,8 +23,10 @@
                 <li><a href="https://www.youtube.com/watch?v=i7Fj58oAzxo">YOUTUBE</a></li>
             </ul>
         </nav>
-        <section>
-            <form action="">
+        <div class="clearfix"></div>
+
+        <section id="content">
+            <form action="" class="form-style">
                 <fieldset>
                     <legend>
                         DATOS DE USUARIO
@@ -52,8 +58,8 @@
                         GUSTOS Y FECHAS
                     </legend>
                     <label for="favorite_color">Color Favorito</label>
-                    <input type="color" name="favorite_color" id="favorite_color">
-                    <label for="date_of_birth">Fecha de Nacimiento</label> <br>
+                    <input type="color" name="favorite_color" id="favorite_color"> <br>
+                    <label for="date_of_birth">Fecha de Nacimiento</label> 
                     <input type="date" name="date_of_birth" id="date_birth">
                 </fieldset>
                
@@ -64,6 +70,7 @@
         <aside>
 
         </aside>
+        <div class="clearfix"></div>
         <footer>
             <p>Siguenos en nuestras redes sociales</p>
             <ul>

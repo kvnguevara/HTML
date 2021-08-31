@@ -49,6 +49,9 @@ h1, h4{
 body{
     color:var(--my-color);
 }
+.container{ display:flex;
+    flex-direction: column;
+}
 
 
 
